@@ -1,0 +1,58 @@
+<title></title>
+<main>
+	<h1 id="question">45*34</h1>
+	<div id="ansDiv">
+		<input type="text" id="answer"></input>
+		<input type="submit" value="=" id="submitbtn" onclick="submit()"></input>
+	</div>
+</main>
+
+<style>
+	body{
+		background-color:black;
+		display:flex;
+		justify-content:center;
+	}
+	main{
+		height:600px;
+		width:900px;
+		background-color:rgba(0, 85, 117, 0.4);
+
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+	}
+	h1{
+		font-size:3em;
+		font-weight:300;
+		text-align:center;
+		color:white;
+	}
+	#ansDiv{
+		display:flex;
+	}
+	#answer{
+		font-size:2em;
+		margin:0 10px;
+		border:0;
+		padding:5px;
+		background-color:rgba(255, 255, 255, 0.1);
+		color:white;
+		flex-grow:1;
+	}
+	#submitbtn{
+		font-size:3em;
+		margin:0 3px;
+		border:none;
+		padding:3px;
+		width:1.5em;
+		color:white;
+		background-color:rgba(0, 255, 0, 0.2);
+	}
+
+
+
+</style>
+
+
+<script src="script.js"></script>
